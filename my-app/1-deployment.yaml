@@ -1,4 +1,3 @@
----
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -18,6 +17,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: lixun2002/lixun:0.1.0
+          image: lixun2002/lixun:0.1.1
           ports:
             - containerPort: 80
