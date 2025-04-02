@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: lixun2002/lixun:0.1.1
+          image: lixun2002/lixun:0.1.2
           ports:
             - containerPort: 80
